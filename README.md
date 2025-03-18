@@ -71,15 +71,3 @@ console.log(sagHallo());
 ```
 
 > **Brücke zu React:** In React nutzen wir `import` und `export`, um Komponenten und Funktionen zu organisieren.
-
----
-
-## Fazit & Ausblick auf React.js
-Herzlichen Glückwunsch! 🎉 Du hast die JavaScript-Grundlagen gelernt. Diese Konzepte helfen dir enorm, wenn du mit React anfängst. 
-
-### Nächste Schritte:
-- Installiere **Node.js**
-- Erstelle dein erstes **React-Projekt** mit `npx create-react-app mein-projekt`
-- Lerne **JSX** (eine Mischung aus HTML & JavaScript)
-
-Viel Erfolg beim Coden! 🚀
