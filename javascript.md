@@ -25,6 +25,7 @@ console.log("Hallo Welt!");
 Du solltest jetzt den Text "Hallo Welt!" in der Konsole sehen!
 
 **Echtwelt-Beispiel**: Bei einer Website für Online-Shopping könntest du eine Bedingung verwenden, um zu prüfen, ob ein Benutzer das Mindestalter für den Kauf eines Produkts erreicht hat.
+
 **Brücke zu React**: In React wirst du oft die Konsole nutzen, um Fehler zu finden oder zu verstehen, was im Code passiert.
 
 ## 3. Variablen – Werte speichern
