@@ -108,9 +108,9 @@ namen.forEach(name => console.log("Hallo " + name));
 ```
 
 **Echtwelt-Beispiel**:
-- *for*: Eine Schleife, die alle Artikel in einem Warenkorb ausgibt.
-- *while*: Eine Schleife, die eine Anzahl von Seiten lädt, bis alle angezeigt wurden.
-- *forEach*: Eine Schleife, die alle Teilnehmer eines Events begrüßt.
+- `for`: Eine Schleife, die alle Artikel in einem Warenkorb ausgibt.
+- `while`: Eine Schleife, die eine Anzahl von Seiten lädt, bis alle angezeigt wurden.
+- `forEach`: Eine Schleife, die alle Teilnehmer eines Events begrüßt.
 **Brücke zu React**: In React nutzen wir oft Schleifen, um Listen von Elementen anzuzeigen.
 
 ## 7. Funktionen – Wiederverwendbarer Code
@@ -166,9 +166,9 @@ const summe = zahlen.reduce((acc, num) => acc + num, 0);
 console.log(summe); // 10
 ```
 **Echtwelt-Beispiel**:
-- *map*: Wenn du eine Liste von Preisen hast und diese mit einem Rabatt berechnen möchtest.
-- *filter*: Wenn du nur Produkte anzeigen möchtest, die einen Preis über einem bestimmten Wert haben.
-- *reduce*: Um die Gesamtsumme der Produkte im Warenkorb zu berechnen.
+- `map`: Wenn du eine Liste von Preisen hast und diese mit einem Rabatt berechnen möchtest.
+- `filter`: Wenn du nur Produkte anzeigen möchtest, die einen Preis über einem bestimmten Wert haben.
+- `reduce`: Um die Gesamtsumme der Produkte im Warenkorb zu berechnen.
 **Brücke zu React**: Diese Methoden sind extrem wichtig für das Arbeiten mit Listen und Daten in React.
 
 ## 9. String-Typen und Template Literals
@@ -257,7 +257,7 @@ let person = {name: "Lisa", alter: 25, adresse: {stadt: "Berlin", strasse: "Must
 console.log(personInfo(person)); // Name: Lisa, Alter: 25, Adresse: Berlin
 ```
 **Echtwelt-Beispiel**:
-- Übergabe eines Arrays: Wenn du eine Liste von Bestellungen an eine Funktion übergibst, um sie zu sortieren oder zu filtern.
-- Übergabe eines Objekts: Ein Benutzerobjekt wird an eine Funktion übergeben, die dann die Profilinformationen anzeigt.
-- Verschachtelte Parameter: Wenn du eine vollständige Adresse an eine Funktion übergibst, die diese für ein Versandetikett verwendet.
+- `Übergabe eines Arrays`: Wenn du eine Liste von Bestellungen an eine Funktion übergibst, um sie zu sortieren oder zu filtern.
+- `Übergabe eines Objekts`: Ein Benutzerobjekt wird an eine Funktion übergeben, die dann die Profilinformationen anzeigt.
+- `Verschachtelte Parameter`: Wenn du eine vollständige Adresse an eine Funktion übergibst, die diese für ein Versandetikett verwendet.
 **Brücke zu React**: In React werden oft komplexe Objekte und Arrays an Komponenten übergeben, besonders bei der Arbeit mit Formularen oder API-Daten.
