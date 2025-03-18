@@ -112,6 +112,7 @@ namen.forEach(name => console.log("Hallo " + name));
 - `for`: Eine Schleife, die alle Artikel in einem Warenkorb ausgibt.
 - `while`: Eine Schleife, die eine Anzahl von Seiten lädt, bis alle angezeigt wurden.
 - `forEach`: Eine Schleife, die alle Teilnehmer eines Events begrüßt.
+  
 **Brücke zu React**: In React nutzen wir oft Schleifen, um Listen von Elementen anzuzeigen.
 
 ## 7. Funktionen – Wiederverwendbarer Code
@@ -139,6 +140,7 @@ console.log(begruessen("Lisa"));
 - Ideal für Callbacks und funktionale Programmierung.
 
 **Echtwelt-Beispiel**: Eine Funktion, die das Alter eines Benutzers überprüft und eine Nachricht zurückgibt, ob er alt genug ist.
+
 **Brücke zu React**: In React werden Arrow Functions oft für Event-Handler und Callbacks verwendet, z. B. wenn ein Button geklickt wird.
 
 ## 8. Wichtige Array-Methoden
@@ -170,6 +172,7 @@ console.log(summe); // 10
 - `map`: Wenn du eine Liste von Preisen hast und diese mit einem Rabatt berechnen möchtest.
 - `filter`: Wenn du nur Produkte anzeigen möchtest, die einen Preis über einem bestimmten Wert haben.
 - `reduce`: Um die Gesamtsumme der Produkte im Warenkorb zu berechnen.
+  
 **Brücke zu React**: Diese Methoden sind extrem wichtig für das Arbeiten mit Listen und Daten in React.
 
 ## 9. String-Typen und Template Literals
@@ -261,4 +264,6 @@ console.log(personInfo(person)); // Name: Lisa, Alter: 25, Adresse: Berlin
 - `Übergabe eines Arrays`: Wenn du eine Liste von Bestellungen an eine Funktion übergibst, um sie zu sortieren oder zu filtern.
 - `Übergabe eines Objekts`: Ein Benutzerobjekt wird an eine Funktion übergeben, die dann die Profilinformationen anzeigt.
 - `Verschachtelte Parameter`: Wenn du eine vollständige Adresse an eine Funktion übergibst, die diese für ein Versandetikett verwendet.
+
 **Brücke zu React**: In React werden oft komplexe Objekte und Arrays an Komponenten übergeben, besonders bei der Arbeit mit Formularen oder API-Daten.
+
