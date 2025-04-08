@@ -109,7 +109,7 @@ Nehmen wir also das Beispiel einmal Stück für Stück auseinander.
    }, 0);
    ```
 
-   wenn wir die variablen mit den echten Werten ersetzen:
+   wenn wir die Variablen mit den echten Werten ersetzen:
 
    ```js
    let result = numbers.reduce((Akkumulator, WertImArray) => {
